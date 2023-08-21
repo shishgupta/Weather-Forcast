@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="card w-[90%] max-w-md text-center h-[500px] m-auto mt-10 rounded-[20px]">
+        <div class="search w-[100%] flex items-center justify-between px-4 pt-6">
+            <input type="text" placeholder="Enter city name" spellcheck="false" class="border-0 outline-0 rounded-3xl bg-[#ebfffc] px-5 py-4  text-base flex-1 mr-4">
+            <button class=" border-0 outline-0 rounded-[50%] bg-[#ebfffc] w-14 cursor-pointer h-14 "><img class="w-5 m-auto" src="images/search.png"></button>
+        </div>
+        <div class="weather-data pt-4">
+            <img src="images/drizzle.png" class="weather-icon m-auto h-32 w-32">
+            <h1 class="temp text-3xl text-white font-bold pt-3">Temperature</h1>
+            <h1 class="cityname text-4xl text-white font-bold mx-0 pt-3">City Name</h1>
+        </div>
+        <div class="details flex justify-between pt-14">
+            <div>
+                <div class="flex pl-8 items-center">
+                    <img src="images/humidity.png" class="h-8 w-8 ">
+                    <p class="humidity font-semibold text-white text-2xl pl-3"></p>
+                </div>
+                <div>
+                    <h3 class="text-white text-lg font-semibold pl-9">Humidity</h3>
+                </div>
+            </div>
+            <div>
+                <div class="flex items-center pr-6">
+                    <img src="images/wind.png" class="h-8 w-8">
+                    <p class="windspeed font-semibold text-white text-xl pl-2"></p>
+                </div>
+                <div>
+                    <h3 class=" text-white text-lg font-semibold pr-10">Wind Speed</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

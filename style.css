@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    /* font-family: sans-serif; */
+    /* display:block; */
+    
+    
+}
+body{
+    background:url(images/25501.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color:rgb(42, 44, 44);
+}
+.card{
+    background-image: linear-gradient(135deg, #0bc2ff, #b3e3ff);
+}
